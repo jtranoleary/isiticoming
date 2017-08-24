@@ -1,6 +1,10 @@
-h1 {
+.text {
+    display: inline-block;
     font-family: 'Helvetica Neue', sans-serif;
-    font-size: 200px;
-    margin-left: 35%;
+    font-size: 144px;
+}
+
+.wrapper {
+    text-align: center;
 }
 
