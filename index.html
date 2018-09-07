@@ -4,6 +4,9 @@
 </head>
     <title>Is it coming?</title>
     <link href="style.css" rel="stylesheet">
+    <script type="text/javascript" src="script.js">
+
+    </script>
 <body>
     <div class="wrapper">
         <div class="text">
@@ -12,8 +15,14 @@
           <p class="mini">Rbbt rbbt. Ayupargrapuya.</p>
         </div>
     </div>
-    <audio autoplay>
-      <source src="assets/song.mp3" type="audio/mp3">
+    <!-- Replacement for autoplay -->
+    <iframe src="assets/song.mp3" allow="autoplay" style="display:none" id="iframeAudio">
+    </iframe>
+    <audio autoplay loop  id="playAudio">
+      <source src="assets/song.mp3">
     </audio>
+    <!-- <audio autoplay>
+      <source src="assets/song.mp3" type="audio/mp3">
+    </audio> -->
 </body>
 </html>
